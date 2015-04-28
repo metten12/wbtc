@@ -8,7 +8,12 @@ work experience: 	http://www.matthiaszbinden.ch/workexperience/comet_ag/electron
 
 education:		http://www.matthiaszbinden.ch/education/apprenticeship/lwb/electronics_technican
 
-hobbies:			http://www.matthiaszbinden.ch/hobbies/floorball
-				      http://www.matthiaszbinden.ch/hobbies/sailing
+hobbies:		http://www.matthiaszbinden.ch/hobbies/floorball
+			http://www.matthiaszbinden.ch/hobbies/sailing
 				      
-				      
+
+#Explain Linked Data
+
+
+
+
