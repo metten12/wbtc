@@ -14,7 +14,9 @@ After that follow information about my work experience and my education. Finally
 In fact I dont think that this IRI's will be used in 10,20 or 100 years. The web alterd all day and nobody knows if the web will still exist in some years how we know it.
 
 
-Explain Linked Data
+Linked Data
+
+In the definition about linked data from Tim Berners-Lee he talk about 4 simple principles. First of all things have to have a name. For that are the URI's concerned. Then with HTTP you can search this URI's. Next, you should give some more information with RDF if someone check your name. Finally make a lot more links to other URI's so we can discover much more. This leads to a interconnection from a lot of information.
 
 
 
