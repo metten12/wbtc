@@ -1,0 +1,22 @@
+3.1
+	
+	@base <http://matthiaszbinden.info>
+	@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+	@prefix foaf: <http://xmlns.com/foaf/0.1/>
+	@prefix dbpedia : <http://dbpedia.org/page/>
+	@prefix wikipedia : <http://en.wikipedia.org/wiki/>
+	@prefix moodle : <http://moodle.bfh.ch/course/view.php?>
+	
+
+	rdf:type foaf:Person ;
+	foaf:firstname "Matthias"@de ;
+	foaf:lastname "Zbinden"@de ;
+	foaf:knows "Stefan#me" ;
+	foaf:knows "Yann#me" ;
+	foaf:knows "Andrea#me" ;
+	
+	foaf:interest wikipedia:Sailing, wikipedia:Floorball ;
+	foaf:interest dbpedia:Switzerland, dbpedia:Bern, dbpedia:Wohlen ;
+	
+	foaf:mbox <mailto:matthiasolivier.zbinden@students.bfh.ch> ;
+	foaf:document <http://wbtc.bfh.ch/2015/linked-data> ;
