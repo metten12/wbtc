@@ -1,1 +1,37 @@
 
+1...................................................)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+
+SELECT * WHERE
+{ 
+    <http://dbpedia.org/resource/Roger_Federer> ?p ?o .
+    FILTER(?p != rdf:type && ?p != rdfs:comment)
+}
+
+
+2...................................................)
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>        
+PREFIX type: <http://dbpedia.org/class/yago/>
+PREFIX prop: <http://dbpedia.org/property/>
+SELECT ?country_name ?population
+
+WHERE {
+    ?country a type:LandlockedCountries ;
+    rdfs:label ?country_name ;
+    prop:populationEstimate ?population .
+    FILTER (?population > 15000000) .
+}
+
+
+3..................................................)
+
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+SELECT ?person {
+    ?person a dbpedia-owl:Writer .
+    ?person dct:subject <http://dbpedia.org/resource/Category:1942_deaths> .
+}
